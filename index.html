@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Define los stats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="imagen">
+            <img src="https://pbs.twimg.com/media/FntyxTqagAEWVsJ?format=jpg&name=large">
+        </div>
+        <div class="character_stats">
+            <h1>Alear Growth Stats</h1>
+            <div class="ch-st">
+                <ul class="stat-list">
+                    <li>HP</li>
+                    <li>Strg</li>
+                    <li>Mag</li>
+                    <li>Dex</li>
+                    <li>Spd</li>
+                    <li>Def</li>
+                    <li>Res</li>
+                    <li>Lck</li>
+                    <li>Bld</li>
+                </ul>
+
+                <ul id="statsArray" class="stats-pj"></ul>
+                <ul id="contentShow" class="contentShow"></ul>
+                <ul id="contentShow1" class="contentShow"></ul>
+                <ul id="contentShow2" class="contentShow"></ul>
+            </div>
+            
+            <h2>Escoge la clase</h2>
+            <button class="button button1" id="divDrag">Divine Dragon</button>
+            <button class="button button2" id="divChld">Divine Child</button>
+            <button class="button button3" id="fellChld">Fell Child</button>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="columna">
+            <h2>¿Qué son los Growths Rates?</h2>
+            <p>Los Growth Rate son los porcentajes que dicen las probabilidades de obtener la suma de un stat al subir de nivel.</p>
+            <p>Estos son los growth del personaje en sí junto a los que le da la clase en la que se encuentra.</p>
+        </div>
+        <div class="columna">
+            Acá puedes ver y revisar cuáles serían los growth rates del personaje Alear (el o la protagonista) según 3 diferentes clases. Esto se basa en los datos oficiales del juego Fire Emblem: Engage. Los datos fueron sacados directamente desde la págna Serenes Forest.
+        </div>
+    </div>
+
+    <script src="./js/class.js"></script>
+</body>
+</html>
